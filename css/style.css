@@ -203,6 +203,9 @@ footer {
     display: inline;
     border-radius: 20px;
 }
+#eu{
+    width: 30px;
+}
 
 @media (max-width: 600px) {
     body {
