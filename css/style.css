@@ -51,6 +51,17 @@ img {
     box-shadow: 0 8px 24px rgba(17, 75, 138, 0.12);
 }
 
+.footer-conteudo img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin: 0;
+    box-shadow: none;
+    flex-shrink: 0;
+}
+
 table {
     display: block;
     margin: 20px auto;
