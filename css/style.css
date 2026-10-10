@@ -203,8 +203,23 @@ footer {
     display: inline;
     border-radius: 20px;
 }
-#eu{
-    width: 30px;
+.footer-conteudo img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin: 0;
+    box-shadow: none;
+    flex-shrink: 0;
+}
+
+
+.footer-professores > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
 }
 
 @media (max-width: 600px) {
